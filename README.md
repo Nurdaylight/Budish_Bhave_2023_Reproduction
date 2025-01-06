@@ -61,6 +61,13 @@ The repository contains the following Julia scripts:
    ```
 ---
 
+
+
+### Tests
+
+1. You can find the tests performed on the separate folder Tests, there you can find test.jl file which has codes for all of the tests we performed.
+   
+
 ## Notes on Replication
 
 ### Discrepancies
