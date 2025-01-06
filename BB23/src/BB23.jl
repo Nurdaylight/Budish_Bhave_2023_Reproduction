@@ -2,10 +2,10 @@
 
 using Pkg
 Pkg.add(["StatFiles", "DataFrames", "Statistics", "GLM", "Plots", "StatsBase",  "OnlineStats",
-            "CovarianceMatrices" , "RDatasets", "FixedEffectModels",  "Random", "Bootstrap", "Pipe", "Parameters", "LinearAlgebra", "KernelDensity", "Distributions"])
+            "CovarianceMatrices" , "RDatasets", "FixedEffectModels",  "Random", "Bootstrap", "Pipe", "HypothesisTests", "Parameters", "LinearAlgebra", "KernelDensity", "Distributions"])
 
 module BB23
-using StatFiles, DataFrames, Statistics, GLM,  Plots,   OnlineStats, StatsBase, OnlineStats, 
+using StatFiles, DataFrames, Statistics, GLM,  Plots,   OnlineStats, StatsBase, OnlineStats, HypothesisTests,
         CovarianceMatrices, RDatasets, FixedEffectModels, Random, Bootstrap, Pipe, Parameters, LinearAlgebra, KernelDensity, Distributions
 
 pwd()
