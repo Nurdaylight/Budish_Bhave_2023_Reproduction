@@ -9,7 +9,7 @@ using StatFiles, DataFrames, Statistics, GLM,  Plots,   OnlineStats, StatsBase, 
         CovarianceMatrices, RDatasets, FixedEffectModels, Random, Bootstrap, Pipe, Parameters, LinearAlgebra, KernelDensity, Distributions
 
 pwd()
-cd("D:\\Downloads\\repl_ticketmaster\\Misha Data\\Data")
+cd("<path to data>.\\Data")
 pwd()
 
 export run
