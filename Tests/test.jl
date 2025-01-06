@@ -1,4 +1,4 @@
-using Test
+using Test, HypothesisTests
 using DataFrames
 using Statistics
 
